@@ -8,14 +8,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <title>annie's kitchen</title>
   </head>
   <body>
     <header>
       <div class="jumbotron" id="jumbotron-landing">
         <div class="navbar navbar-expand-lg">
-          <button class="navbar-toggle" type="button" name="button">
-            <span class="navbar-toggler-icon"></span>
+          <button class="" type="button" name="button" id="nav-btn">
+            <span><i class="fas fa-bars"></i></span>
           </button>
         </div>
         <img class="d-block mx-auto img-fluid" src="img/logoBig.png" alt="logo image">
@@ -93,7 +94,7 @@
     <div class="jumbotron p-5 coral" id="jumbotron-menu-nav">
       <div class="container p-0 m-5 text-center bg-white" id="inner-menu">
         <div class="d-flex">
-          <div class="flex-fill p-3">
+          <div class="flex-fill p-2">
             <span class="align-self-center">Fast Food</span>
           </div>
           <div class="flex-fill p-3 border border-secondary bg-lavender">
@@ -108,7 +109,7 @@
         </div>
         <div class="p-3 ">
           <span></span>
-          <div class="card-deck p-5 ml-5 mr-5">
+          <div class="card-deck p-5 ml-4 mr-4">
             <div class="card">
               <img src="img/fastfood/chickenBurger.jpg" alt="chicken burger">
             </div>
@@ -123,6 +124,26 @@
         </div>
       </div>
     </div>
+
+    <div class="text-center row m-0 p-0 w-75 " id="reviews">
+      <div class="col-7">
+        <h3 class="coral">Our Happy Customers</h3>
+        <h4>George Richard</h4>
+        <p class="text-secondary">Great Food! The menu is awesome, their foods are not only great but at the right price too! I highly recomend them :)</p>
+        <div class="">
+          <span><i class="fas fa-angle-left p-3"></i></span>
+          <img src="img/customers/p1.png" alt="customer one">
+          <img src="img/customers/p2.png" alt="customer two">
+          <img src="img/customers/p3.png" alt="customer three">
+          <span><i class="fas fa-angle-right p-3"></i></span>
+        </div>
+      </div>
+      <div class="col-5">
+        <h3 class="coral">About Menu</h3>
+        <p class="border-left border-secondary text-secondary">We are a little team of seven members. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+    </div>
+
     <div class="" style="margin-top: 500px;"></div>
   </body>
 </html>

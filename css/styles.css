@@ -59,10 +59,7 @@ body {
   height: auto;
 }
 
-#party-time {
-  background-color: coral;
-  height: auto;
-}
+
 
 #breakfast {
   background-image: url('../img/foodtop/breakfast.jpg');
@@ -109,6 +106,10 @@ body {
 }
 
 #reviews {
-  box-shadow: 10px 10px 10px 10px grey;
+  box-shadow: 5px 5px 12px 10px grey;
   border-radius: 0.3rem;
+}
+
+#jumbotron-forms {
+  background-image: url('../img/backgrounds/subscribe.jpg');
 }

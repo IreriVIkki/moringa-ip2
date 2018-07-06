@@ -18,6 +18,7 @@ body {
 }
 
 #menu {
+  font-size: 28px;
   height: 200px;
 }
 
@@ -26,7 +27,6 @@ body {
 }
 
 #nav-row {
-  font-size: 28px;
   height: auto;
 }
 

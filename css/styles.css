@@ -17,6 +17,14 @@ body {
   /* height: 450px; */
 }
 
+#menu {
+  height: 200px;
+}
+
+#happy {
+  height: auto;
+}
+
 #nav-row {
   font-size: 28px;
   height: auto;
@@ -32,10 +40,12 @@ body {
 
 #happy-hour {
   background-color: lavender;
+  height: auto;
 }
 
 #party-time {
   background-color: coral;
+  height: auto;
 }
 
 #breakfast {
@@ -57,4 +67,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.btn-outline-warning {
+  color: coral;
+  border-color: coral;
+}
+
+.btn-outline-warning:hover{
+  color: #212529;
+  border-color: coral;
+  background-color: coral;
 }

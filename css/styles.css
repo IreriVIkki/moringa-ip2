@@ -7,6 +7,15 @@ body {
   font-weight: bold;
 }
 
+.coral {
+  color: coral;
+}
+
+.bg-lavender {
+  background-color: lavender;
+}
+
+
 .jumbotron {
   border-radius: 0;
   margin-bottom: 0;
@@ -84,5 +93,13 @@ body {
 }
 
 #jumbotron-menu-nav {
-  
+  background-image: url('../img/backgrounds/foodsBg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  font-size: 22px;
+}
+
+#inner-menu {
+  background-color: #fff;
 }

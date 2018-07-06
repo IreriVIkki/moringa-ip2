@@ -23,6 +23,14 @@ body {
 }
 
 
+#happy-hour {
+  background-color: lavender;
+}
+
+#party-time {
+  background-color: coral;
+}
+
 #breakfast {
   background-image: url('../img/foodtop/breakfast.jpg');
   background-position: center;

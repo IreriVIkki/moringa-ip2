@@ -22,6 +22,13 @@ body {
   height: auto;
 }
 
+.sidebar {
+  width: 30%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
 
 #happy-hour {
   background-color: lavender;

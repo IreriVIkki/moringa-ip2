@@ -59,7 +59,9 @@ body {
   height: auto;
 }
 
-
+#party-time {
+  background-color: coral;
+}
 
 #breakfast {
   background-image: url('../img/foodtop/breakfast.jpg');
@@ -115,5 +117,5 @@ body {
 }
 
 #jumbotron-footer {
-  height: 450px
+  height: 350px
 }

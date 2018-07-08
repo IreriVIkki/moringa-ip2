@@ -1,5 +1,4 @@
-// $(document).ready(function(){
-//   $('#lunch').hover(function(){
-//     $('#lunch').addClass(lunch-hover);
-//   });
-// });
+$(document).ready(function(){
+  $('#lunch').submit(event(){
+  });
+});

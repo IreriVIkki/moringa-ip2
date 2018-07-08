@@ -144,6 +144,14 @@ body {
   border-radius: 0.3rem;
 }
 
+.invalid-email {
+  display: none;
+}
+
+.valid-email {
+  display: none;
+}
+
 #jumbotron-forms {
   background-image: url('../img/backgrounds/subscribe.jpg');
 }

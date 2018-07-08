@@ -167,8 +167,20 @@
       <h3 class="mb-3">Get Our Daily Food Items Delivered TO Your Email</h3>
       <form class="d-flex pl-5 pr-5 form-group">
         <input class="flex-fill mr-3" type="text" name="" placeholder="  Enter email here:" value="" id="email-entry">
-        <button class="flex-fill m-auto btn btn-danger " type="button" name="button">subscribe</button>
+        <button class="flex-fill m-auto btn btn-danger " type="button" name="button" id="subscribe">subscribe</button>
       </form>
+      <div class="ml-5 mr-5 alert alert-danger alert-dismissible invalid-email" role="alert">
+        <span>Please enter a <em class="text-dark">Valid</em> email</span>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="ml-5 mr-5 alert alert-success alert-dismissible valid-email" role="alert">
+        <span> <strong>CONGRATS!! </strong>Next week's menu has been sent to your email </span>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
     </div>
   </div>
 

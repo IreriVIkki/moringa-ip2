@@ -1,14 +1,16 @@
-# Independent Project
+## Annie's Kitchen Friday Ip
 
-## Instructions
-  1) Please clone the Moringa School **mpft1-ip** repo to your computer.
+******
 
-  2) Create a repo on your profile, and copy the files from **mpft1-ip** to your new repo.
-  
-  3) Fix up the folder structure.
+#### Author
+**_Victor Ireri_**
 
-  4) Submit your link through Moringa School LMS.
 
-  5) Complete the independent project.
-  
-  6) Push your commits up to your repo.
+This website provides menu items for Anita's Kitchen which include:
+
+1. Break fast Items
+2. Lunch items
+3. Dinner Items
+4. A fast food menu
+
+Here is the link to the live site on gh-pages [https://irerivikki.github.io/moringa-ip2/](https://irerivikki.github.io/moringa-ip2/)

@@ -67,8 +67,15 @@ body {
   background-color: coral;
 }
 
-#breakfast {
+.breakfast {
   background-image: url('../img/foodtop/breakfast.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.breakfast:hover {
+  background-image: url('../img/foodtop/dinner2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -88,8 +95,15 @@ body {
   background-size: 100% auto;
 }
 
-#dinner {
+.dinner {
   background-image: url('../img/foodtop/lunch.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.dinner:hover {
+  background-image: url('../img/foodtop/dinner2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
